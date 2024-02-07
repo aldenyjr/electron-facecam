@@ -5,4 +5,5 @@ window.onload = async function () {
   });
 
   document.querySelector("video").srcObject = srteam;
+  console.log("OK");
 };
