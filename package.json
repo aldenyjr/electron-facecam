@@ -1,0 +1,15 @@
+{
+  "name": "facecam",
+  "version": "1.0.0",
+  "description": "Criado no processo de aprendizado do Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aldeny Júnior",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.2.1"
+  }
+}
