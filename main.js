@@ -1,9 +1,11 @@
 const { app, BrowserWindow, screen } = require("electron");
+const path = require("path");
 
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 405,
     height: 405,
+    icon: path.join(__dirname, "webcam-regular-24.png"), // Defina o caminho para o seu ícone aqui
     webPreferences: {
       nodeIntegration: true,
     },
